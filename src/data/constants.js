@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/imabhishek476",
     resume:
-      "https://drive.google.com/file/d/1ffZrcMcn8Ua/view?usp=sharing",
+      "https://github.com/user-attachments/files/16027009/Abhishek_Gupta_lts.pdf",
     linkedin: "https://www.linkedin.com/in/abhishek-gupta476/",
     twitter: "https://twitter.com/Abhi_Ausstar",
     insta: "https://www.instagram.com/imabhishekausstar/",
@@ -279,7 +279,7 @@ export const Bio = {
       description:
         "Developed a web application designed to enabling efficient blood donation record management and seamless communication among donors, blood banks, and administrators. It provides a user-friendly interface for donors, banks and administrators",
       image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344103515-f8d574ea-1d47-4d7a-8ad5-0a8818a1984d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T085547Z&X-Amz-Expires=300&X-Amz-Signature=67dc959e353955b7e9f4319f734ed37754b40c39143871d90a26a4e9a82f7cb0&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
+        "https://raw.githubusercontent.com/imabhishek476/images/main/Screenshot%202024-06-27%20215500.png",
       tags: [
         "React Js",
         "MongoDb",
@@ -301,7 +301,7 @@ export const Bio = {
       description:
         "Developed a responsive full-stack web application using React.js, integrating Firebase for real-time data management and secure user authentication where admin user can handle all the order management with separated dashboard. Individually designed UI with Tailwind CSS, and implemented Razorpay for seamless payment processing.",
       image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344103032-322573a7-2b5e-47ed-8487-b1da9ff36357.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T085416Z&X-Amz-Expires=300&X-Amz-Signature=6b79e7a631d2845538c8ba0a5186f796dc7f32f7fa9f1474090bc6632916077f&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
+        "https://raw.githubusercontent.com/imabhishek476/images/main/Screenshot%202024-06-27%20220636.png",
       tags: ["React Js", "Firebase","Tailwind CSS", "Razorpay"],
       category: "web app",
       github: "https://github.com/imabhishek476/Abhishek_Mall",
@@ -322,7 +322,7 @@ export const Bio = {
       description:
         "Designed and developed the Resume Maker project that helps users  with fast and responsive performance using React.js, simplifying resume creation for professionals and freshers. Automated resume layout creation based on user input, streamlining the resume-building process and enhancing the user experience",
       image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344102799-529eab98-3a24-44f0-a798-a479aca8d1e0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T085331Z&X-Amz-Expires=300&X-Amz-Signature=6e7e62ac859a41b60293021c91a46f9d51ac7cb3baa7f5495d0bef8c5e34fd25&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
+        "https://raw.githubusercontent.com/imabhishek476/images/main/Screenshot%202024-06-27%20222621.png",
       tags: [
         "React Js",
         "Redux",
@@ -339,7 +339,7 @@ export const Bio = {
       description:
         "Developed a user-friendly React-based News Streaming app that provides daily news across various categories through News APIs. Utilized React.js, JavaScript, and Bootstrap CSS to create a responsive and visually appealing app",
       image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344101214-63bc3462-5bed-49ce-9f68-c880f42827df.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T084821Z&X-Amz-Expires=300&X-Amz-Signature=e81895ca0670110f5840539d98264a6e78361fa9fbe9db1caa6fcc26a9a06d79&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
+        "https://raw.githubusercontent.com/imabhishek476/images/main/Screenshot%202024-06-28%20141728.png",
       tags: ["React", "Bootstrap CSS", "Open API"],
       category: "machine learning",
       github: "https://github.com/imabhishek476/News-for-free",
