@@ -279,7 +279,7 @@ export const Bio = {
       description:
         "Developed a web application designed to enabling efficient blood donation record management and seamless communication among donors, blood banks, and administrators. It provides a user-friendly interface for donors, banks and administrators",
       image:
-        "https://private-user-images.githubusercontent.com/112748178/344099035-87832963-b104-4cbb-9fd5-676b5f370cde.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1NjQzMzMsIm5iZiI6MTcxOTU2NDAzMywicGF0aCI6Ii8xMTI3NDgxNzgvMzQ0MDk5MDM1LTg3ODMyOTYzLWIxMDQtNGNiYi05ZmQ1LTY3NmI1ZjM3MGNkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyOFQwODQwMzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MWE0YmNhYjUwZDk5ODZmOGEyYjk3M2Q5MThiYTcyYTA0YzJmOWIzYTUwMjdlMmY2Y2QzMDgzZGQ2OWMyOThhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mSsUlI5H9xWJE-enMAGNbP48atGAmV-mYiOJRapr1Kg",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344103515-f8d574ea-1d47-4d7a-8ad5-0a8818a1984d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T085547Z&X-Amz-Expires=300&X-Amz-Signature=67dc959e353955b7e9f4319f734ed37754b40c39143871d90a26a4e9a82f7cb0&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
       tags: [
         "React Js",
         "MongoDb",
@@ -301,7 +301,7 @@ export const Bio = {
       description:
         "Developed a responsive full-stack web application using React.js, integrating Firebase for real-time data management and secure user authentication where admin user can handle all the order management with separated dashboard. Individually designed UI with Tailwind CSS, and implemented Razorpay for seamless payment processing.",
       image:
-        "https://private-user-images.githubusercontent.com/112748178/344100214-b056cc61-dcec-4797-a5c8-8d30d04fe2a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1NjQ1ODAsIm5iZiI6MTcxOTU2NDI4MCwicGF0aCI6Ii8xMTI3NDgxNzgvMzQ0MTAwMjE0LWIwNTZjYzYxLWRjZWMtNDc5Ny1hNWM4LThkMzBkMDRmZTJhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyOFQwODQ0NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNjYxYTk5OWRlOTU3OTY2MDNmYjA2MDJmMmZkNmE1OGI3YmJjNDMxNjgyYWRiNmRiMTg5MDczODE1YmM1ZTAxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.DJv0ClnavUqDrWTxqKuJm-_-KNGwcSKwtkB4qIQUsKY",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344103032-322573a7-2b5e-47ed-8487-b1da9ff36357.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T085416Z&X-Amz-Expires=300&X-Amz-Signature=6b79e7a631d2845538c8ba0a5186f796dc7f32f7fa9f1474090bc6632916077f&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
       tags: ["React Js", "Firebase","Tailwind CSS", "Razorpay"],
       category: "web app",
       github: "https://github.com/imabhishek476/Abhishek_Mall",
@@ -322,7 +322,7 @@ export const Bio = {
       description:
         "Designed and developed the Resume Maker project that helps users  with fast and responsive performance using React.js, simplifying resume creation for professionals and freshers. Automated resume layout creation based on user input, streamlining the resume-building process and enhancing the user experience",
       image:
-        "https://private-user-images.githubusercontent.com/112748178/344100597-e0f99598-55af-413b-8e10-89c0b55f2ee3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1NjQ2NTIsIm5iZiI6MTcxOTU2NDM1MiwicGF0aCI6Ii8xMTI3NDgxNzgvMzQ0MTAwNTk3LWUwZjk5NTk4LTU1YWYtNDEzYi04ZTEwLTg5YzBiNTVmMmVlMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyOFQwODQ1NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZDQzYjQyMDcxM2JmZmI5ZjBhYzRiOTdlZjI4YWIzOTZmODdhZDA3N2EzZDIxNjdlNWNjYzM0OTQ5MTA5NTU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.1JiNX0VUFK1siZ0WxNsXiqcf7iIcGLoVPzxu5oK7yM8",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344102799-529eab98-3a24-44f0-a798-a479aca8d1e0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T085331Z&X-Amz-Expires=300&X-Amz-Signature=6e7e62ac859a41b60293021c91a46f9d51ac7cb3baa7f5495d0bef8c5e34fd25&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
       tags: [
         "React Js",
         "Redux",
