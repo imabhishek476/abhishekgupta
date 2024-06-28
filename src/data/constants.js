@@ -156,7 +156,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCEj_V6_aIHeHJk9LAEq1kk5Bs7bjAzb82qw&s",
         },
         {
           name: "GitHub",
@@ -181,7 +181,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaWljheH88qcaUyOBSYs7uILchXcKdZosvLg&s",
         },
         // {
         //   name: "Adobe XD",
@@ -279,7 +279,7 @@ export const Bio = {
       description:
         "Developed a web application designed to enabling efficient blood donation record management and seamless communication among donors, blood banks, and administrators. It provides a user-friendly interface for donors, banks and administrators",
       image:
-        "https://private-user-images.githubusercontent.com/112748178/343863445-6ae591d2-c3e1-4fae-a138-c52fdf45a1a5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1MDYwMDQsIm5iZiI6MTcxOTUwNTcwNCwicGF0aCI6Ii8xMTI3NDgxNzgvMzQzODYzNDQ1LTZhZTU5MWQyLWMzZTEtNGZhZS1hMTM4LWM1MmZkZjQ1YTFhNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyN1QxNjI4MjRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lOWI3ZjA5NWRhZTM5MTUxYmQ5NWRhYTNlMjlhNjExNGVhZDAzMzk4OGVkNzBlNDVjY2RmOGE1NzIwMzU4YjI3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.we4WIviaqeQAIqijSvxjGN6j0omAq25MXPSi14skGXE",
+        "https://private-user-images.githubusercontent.com/112748178/344099035-87832963-b104-4cbb-9fd5-676b5f370cde.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1NjQzMzMsIm5iZiI6MTcxOTU2NDAzMywicGF0aCI6Ii8xMTI3NDgxNzgvMzQ0MDk5MDM1LTg3ODMyOTYzLWIxMDQtNGNiYi05ZmQ1LTY3NmI1ZjM3MGNkZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyOFQwODQwMzNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MWE0YmNhYjUwZDk5ODZmOGEyYjk3M2Q5MThiYTcyYTA0YzJmOWIzYTUwMjdlMmY2Y2QzMDgzZGQ2OWMyOThhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mSsUlI5H9xWJE-enMAGNbP48atGAmV-mYiOJRapr1Kg",
       tags: [
         "React Js",
         "MongoDb",
@@ -301,25 +301,19 @@ export const Bio = {
       description:
         "Developed a responsive full-stack web application using React.js, integrating Firebase for real-time data management and secure user authentication where admin user can handle all the order management with separated dashboard. Individually designed UI with Tailwind CSS, and implemented Razorpay for seamless payment processing.",
       image:
-        "https://private-user-images.githubusercontent.com/112748178/343871274-d451ae94-e2af-418e-8dd7-f27b15a5e821.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1MDc0NzMsIm5iZiI6MTcxOTUwNzE3MywicGF0aCI6Ii8xMTI3NDgxNzgvMzQzODcxMjc0LWQ0NTFhZTk0LWUyYWYtNDE4ZS04ZGQ3LWYyN2IxNWE1ZTgyMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyN1QxNjUyNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zNTU3ZDliOTFlMjE1NzFlZjc4OGQzNjlmYWM4NjcxY2EyODFkZDljZmJlNDk1OWVhOGQ0MjUzZTkxOTg0ZWQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.-kixjHQs-yhiwfurOj2P6Bff1uCOhCjqFN5lBBmulSM",
+        "https://private-user-images.githubusercontent.com/112748178/344100214-b056cc61-dcec-4797-a5c8-8d30d04fe2a4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1NjQ1ODAsIm5iZiI6MTcxOTU2NDI4MCwicGF0aCI6Ii8xMTI3NDgxNzgvMzQ0MTAwMjE0LWIwNTZjYzYxLWRjZWMtNDc5Ny1hNWM4LThkMzBkMDRmZTJhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyOFQwODQ0NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNjYxYTk5OWRlOTU3OTY2MDNmYjA2MDJmMmZkNmE1OGI3YmJjNDMxNjgyYWRiNmRiMTg5MDczODE1YmM1ZTAxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.DJv0ClnavUqDrWTxqKuJm-_-KNGwcSKwtkB4qIQUsKY",
       tags: ["React Js", "Firebase","Tailwind CSS", "Razorpay"],
       category: "web app",
       github: "https://github.com/imabhishek476/Abhishek_Mall",
       webapp: "https://abhishekmall.vercel.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+      // member: [
+      //   {
+      //     name: "Abhishek Gupta",
+      //     img: "https://avatars.githubusercontent.com/u/112748178?s=400&u=5d12614e5b0731fd314e99631b60969167a1b7d3&v=4",
+      //     linkedin: "https://www.linkedin.com/in/abhishek-gupta476/",
+      //     github: "https://github.com/imabhishek476/",
+      //   },
+      // ],
     },
     {
       id: 1,
@@ -328,7 +322,7 @@ export const Bio = {
       description:
         "Designed and developed the Resume Maker project that helps users  with fast and responsive performance using React.js, simplifying resume creation for professionals and freshers. Automated resume layout creation based on user input, streamlining the resume-building process and enhancing the user experience",
       image:
-        "https://private-user-images.githubusercontent.com/112748178/343872488-276a53a9-664a-48d4-8231-23082109d771.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1MDc3MDIsIm5iZiI6MTcxOTUwNzQwMiwicGF0aCI6Ii8xMTI3NDgxNzgvMzQzODcyNDg4LTI3NmE1M2E5LTY2NGEtNDhkNC04MjMxLTIzMDgyMTA5ZDc3MS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyN1QxNjU2NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMGUxZWJhMDdhMzEyZmMzOTMzMzA5YzExMTlkZTY0MzRhYWIwYzgyYTdiMDAwOTE5MDE4ZGZlYjBlYWQzMDViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.FIZNORuyjlIeP_ZkutrRozaeLHrSNOIatXYLPimgxV4",
+        "https://private-user-images.githubusercontent.com/112748178/344100597-e0f99598-55af-413b-8e10-89c0b55f2ee3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk1NjQ2NTIsIm5iZiI6MTcxOTU2NDM1MiwicGF0aCI6Ii8xMTI3NDgxNzgvMzQ0MTAwNTk3LWUwZjk5NTk4LTU1YWYtNDEzYi04ZTEwLTg5YzBiNTVmMmVlMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjI4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYyOFQwODQ1NTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZDQzYjQyMDcxM2JmZmI5ZjBhYzRiOTdlZjI4YWIzOTZmODdhZDA3N2EzZDIxNjdlNWNjYzM0OTQ5MTA5NTU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.1JiNX0VUFK1siZ0WxNsXiqcf7iIcGLoVPzxu5oK7yM8",
       tags: [
         "React Js",
         "Redux",
@@ -345,11 +339,11 @@ export const Bio = {
       description:
         "Developed a user-friendly React-based News Streaming app that provides daily news across various categories through News APIs. Utilized React.js, JavaScript, and Bootstrap CSS to create a responsive and visually appealing app",
       image:
-        "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/112748178/344101214-63bc3462-5bed-49ce-9f68-c880f42827df.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240628%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240628T084821Z&X-Amz-Expires=300&X-Amz-Signature=e81895ca0670110f5840539d98264a6e78361fa9fbe9db1caa6fcc26a9a06d79&X-Amz-SignedHeaders=host&actor_id=112748178&key_id=0&repo_id=654056447",
       tags: ["React", "Bootstrap CSS", "Open API"],
       category: "machine learning",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
+      github: "https://github.com/imabhishek476/News-for-free",
+      webapp: "https://news-for-free.onrender.com/",
       // member: [
       //   {
       //     name: "Abhishek Gupta",
