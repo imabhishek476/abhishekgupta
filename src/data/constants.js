@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/imabhishek476",
     resume:
-      "https://github.com/user-attachments/files/16027009/Abhishek_Gupta_lts.pdf",
+      "https://raw.githubusercontent.com/imabhishek476/images/main/Abhishek_Gupta_adv.pdf",
     linkedin: "https://www.linkedin.com/in/abhishek-gupta476/",
     twitter: "https://twitter.com/Abhi_Ausstar",
     insta: "https://www.instagram.com/imabhishekausstar/",
