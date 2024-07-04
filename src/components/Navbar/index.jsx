@@ -78,7 +78,7 @@ export const NavLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -114,7 +114,7 @@ export const GithubButton = styled.a`
   text-decoration: none;
   font-size: 16px;
   transition: all 0.6s ease-in-out;
-  :hover {
+  &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
