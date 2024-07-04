@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./Utils/Themes";
@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
+import { Snackbar } from "@mui/material";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -36,8 +37,23 @@ const Wrapper = styled.div`
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
+  const [open, setOpen] = React.useState({
+    status: false,
+    type: "error",
+    message: "something went wrong!"
+  });
+
   return (
     <>
+      <Snackbar
+        open={open.status}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+        autoHideDuration={6000}
+        onClose={() => setOpen(false)}
+        message={open.message}
+        variant="filled"
+        severity={open.type} //"success"
+      />
       <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
         <Router>
           <Navbar />
@@ -50,7 +66,7 @@ function App() {
             <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Wrapper>
               <Education />
-              <Contact />
+              <Contact open={open} setOpen={setOpen} />
             </Wrapper>
             <Footer />
             {openModal.state && (
