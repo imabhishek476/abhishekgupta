@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
-import { Snackbar } from "@mui/material";
+import { Alert, Snackbar } from "@mui/material";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -50,10 +50,16 @@ function App() {
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
         autoHideDuration={6000}
         onClose={() => setOpen(false)}
-        message={open.message}
-        variant="filled"
-        severity={open.type} //"success"
-      />
+        severity={open.type}
+      >
+        <Alert
+          severity={open.type}
+          variant="filled"
+          sx={{ width: '100%' }}
+        >
+          {open.message}
+        </Alert>
+      </Snackbar>
       <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
         <Router>
           <Navbar />
