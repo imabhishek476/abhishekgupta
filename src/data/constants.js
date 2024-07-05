@@ -330,7 +330,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/imabhishek476/Resume_Builder",
-      webapp: "https://vexa-app.netlify.app/",
+      webapp: "https://proresume-maker.onrender.com/",
     },
     {
       id: 2,
