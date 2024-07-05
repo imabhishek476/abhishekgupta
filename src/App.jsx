@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import { Alert, Snackbar } from "@mui/material";
+import { FiMoon, FiSun } from "react-icons/fi";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -35,17 +36,33 @@ const Wrapper = styled.div`
 
 const Button = styled.div`
   font-size: 1.5rem;
-  width:36px;
-  padding: 1px 3px 1px 2px;
+  width:45px;
+  padding: 10px;
   position: sticky;
   z-index:100;
-  bottom: 3%;
-  left: 96%;
-  background-color: red;
-  border-radius:100%;
+  bottom: 5%;
+  left: 95%;
+  background-color: ${props=> props.theme.card};
+  border: none;
+  outline: none;
+  border-radius:50%;
   display: flex;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease-in-out;;
   cursor:pointer;
+  &:active {
+    transform: scale(0.100);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  &:focus {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  @media screen and (max-width: 768px) {
+    bottom: 3%;
+    left: 85%;
+  }
+  // @media (max-width: 640px) {
+  //   ;
+  // }
 `;
 
 function App() {
@@ -91,9 +108,9 @@ function App() {
                 setOpenModal={setOpenModal}
               />
             )}
-            {
-              darkMode ? <Button onClick={()=>setDarkMode(false)}>🌛</Button> : <Button onClick={()=>setDarkMode(true)}>☀️</Button>
-            }
+            <Button onClick={()=>setDarkMode((prev)=>!prev)} darkMode={darkMode}>
+              {darkMode ? <FiMoon style={{color:"white"}}/> : <FiSun /> }
+            </Button>
           </Body>
         </Router>
       </ThemeProvider>
