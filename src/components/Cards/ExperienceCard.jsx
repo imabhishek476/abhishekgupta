@@ -1,6 +1,6 @@
 import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 
 const Top = styled.div`
   width: 100%;
@@ -95,6 +95,9 @@ const ItemWrapper = styled.div`
 `;
 
 const ExperienceCard = ({ experience }) => {
+
+  const theme = useTheme();
+
   return (
     <VerticalTimelineElement
       icon={
@@ -111,10 +114,10 @@ const ExperienceCard = ({ experience }) => {
         flexDirection: "column",
         gap: "12px",
         background: "#1d1836",
-        color: "#fff",
+        color: theme.text_primary,
         boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
         // backdropFilter: "blur(3px) saturate(106%)",
-        backgroundColor: "rgba(17, 25, 40, 0.83)",
+        backgroundColor: theme.card,
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
       }}

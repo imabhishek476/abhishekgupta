@@ -17,7 +17,6 @@ import { Alert, Snackbar } from "@mui/material";
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
-  overflow-x: hidden;
 `;
 const Wrapper = styled.div`
   background: linear-gradient(
@@ -32,6 +31,21 @@ const Wrapper = styled.div`
     );
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+`;
+
+const Button = styled.div`
+  font-size: 1.5rem;
+  width:36px;
+  padding: 1px 3px 1px 2px;
+  position: sticky;
+  z-index:100;
+  bottom: 3%;
+  left: 96%;
+  background-color: red;
+  border-radius:100%;
+  display: flex;
+  transition: all 0.5s ease;
+  cursor:pointer;
 `;
 
 function App() {
@@ -52,11 +66,7 @@ function App() {
         onClose={() => setOpen(false)}
         severity={open.type}
       >
-        <Alert
-          severity={open.type}
-          variant="filled"
-          sx={{ width: '100%' }}
-        >
+        <Alert severity={open.type} variant="filled" sx={{ width: "100%" }}>
           {open.message}
         </Alert>
       </Snackbar>
@@ -81,6 +91,9 @@ function App() {
                 setOpenModal={setOpenModal}
               />
             )}
+            {
+              darkMode ? <Button onClick={()=>setDarkMode(false)}>🌛</Button> : <Button onClick={()=>setDarkMode(true)}>☀️</Button>
+            }
           </Body>
         </Router>
       </ThemeProvider>

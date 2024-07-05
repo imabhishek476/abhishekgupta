@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { useTheme } from "styled-components";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const Top = styled.div`
@@ -71,6 +71,7 @@ const Description = styled.div`
 const Span = styled.div``;
 
 const EducationCard = ({ education }) => {
+  const theme = useTheme();
   return (
     <VerticalTimelineElement
       icon={
@@ -87,10 +88,10 @@ const EducationCard = ({ education }) => {
         flexDirection: "column",
         gap: "12px",
         background: "#1d1836",
-        color: "#fff",
+        color: theme.text_primary,
         boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
         // backdropFilter: "blur(3px) saturate(106%)",
-        backgroundColor: "rgba(17, 25, 40, 0.83)",
+        backgroundColor: theme.card,
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
       }}

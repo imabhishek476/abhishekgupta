@@ -1,5 +1,4 @@
 import React from "react";
-import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
@@ -124,7 +123,7 @@ export const GithubButton = styled.a`
 `;
 
 export const Span = styled.div`
-  color: white;
+  color: ${({ theme }) => theme.text_primary};
   padding: 0 4px;
   font-weight: bold;
   font-size: 18px;
@@ -166,7 +165,7 @@ export const MobileMenuLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
@@ -190,7 +189,7 @@ export const MobileMenuButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
 
-  :hover {
+  &:hover {
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
@@ -202,7 +201,7 @@ export const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
