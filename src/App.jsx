@@ -47,10 +47,10 @@ const Button = styled.div`
   outline: none;
   border-radius:50%;
   display: flex;
-  transition: all 0.3s ease-in-out;;
+  transition: all 0.5s ease-in-out;
   cursor:pointer;
   &:active {
-    transform: scale(0.100);
+    transform: rotateZ(360deg);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
   &:focus {
