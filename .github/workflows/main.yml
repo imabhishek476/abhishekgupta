@@ -33,6 +33,8 @@ jobs:
       - name: Get Public IP
         id: ip
         uses: haythem/public-ip@v1.3
+        with:
+          maxRetries: 5
 
       - name: Print Public IP
         run: |
