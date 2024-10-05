@@ -1,10 +1,11 @@
 export const Bio = {
     name: "Abhishek Gupta",
+    profile: "https://avatars.githubusercontent.com/u/112748178?v=4",
     roles: [
       "Full Stack Developer",
-    //   "Android Developer",
+      "DevOps Engineer",
+      "Software Developer",
       "UI/UX Designer",
-      "Programmer",
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -183,16 +184,16 @@ export const Bio = {
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaWljheH88qcaUyOBSYs7uILchXcKdZosvLg&s",
         },
-        // {
-        //   name: "Adobe XD",
-        //   image:
-        //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-        // },
-        // {
-        //   name: "Figma",
-        //   image:
-        //     "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-        // },
+        {
+          name: "AWS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+        },
+        {
+          name: "DevOps",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbQqHQoSO24sYhpWnG4J9bCJkPFNd2Cj_hQ&s",
+        },
       ],
     },
   ];
@@ -200,7 +201,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/D4D0BAQFThEvZuev8jA/company-logo_200_200/0/1693993872405/codingninjas_logo?e=1727308800&v=beta&t=Qc4KGTU1GCFQ_uUTUTHI3ulvzvUIqjRDlk4f1IlFkwI",
+      img: "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/codingninjas_logo.jpeg",
       role: "Teaching Assitant Intern",
       company: "Coding Ninjas",
       date: "Oct 2022 - Jan 2023",
@@ -221,7 +222,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/D560BAQFIljrLFdmT8w/company-logo_200_200/0/1705478253393/easedraft_logo?e=1727308800&v=beta&t=FyqmJaTVaHeOE4llIsyjpNZ65nJaz1F_q6QtQ3vXHbg",
+      img: "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/easedraft_logo.jpeg",
       role: "Full Stack Developer",
       company: "Easedraft",
       date: "Feb 2024 - June 2024",
@@ -239,12 +240,35 @@ export const Bio = {
       ],
       doc: ""
     },
+    {
+      id: 2,
+      img: "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/an_digital_presence.jpeg",
+      role: "Full Stack Developer",
+      company: "AN Digital Presence",
+      date: "July 2024 - Present",
+      desc: "Working as Freelancer and developing, managing the application and provide cost effective solutions for their clients and help to scale their businesses.",
+      skills: [
+        "React",
+        "Redux",
+        "NodeJs",
+        "MongoDB",
+        "Material UI",
+        "Next UI",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Docker",
+        "AWS",
+        "CI/CD",
+      ],
+      doc: ""
+    },
   ];
   
   export const education = [
     {
       id: 0,
-      img: "https://media.licdn.com/dms/image/C510BAQHhR-nX40dfBw/company-logo_200_200/0/1630608786365/bansal_institute_of_science__technology_raisen_road_kokta_anand_nagar_bhopal___462021_logo?e=1727308800&v=beta&t=W1oSnYn_gV0KtX0FPW74tHykTktvQg3Eq5dqF74ZL-k",
+      img: "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/bansal_institute.jpeg",
       school: "Bansal Institute of Science and Technology, Madhya Pradesh",
       date: "July 2019 - May 2023",
       grade: "8.1 CGPA",
@@ -296,16 +320,16 @@ export const Bio = {
     },
     {
       id: 0,
-      title: "E-commerce App ",
+      title: "Vibepulse - Ecommerce",
       date: "Apr 2023 - May 2023",
       description:
-        "Developed a responsive full-stack web application using React.js, integrating Firebase for real-time data management and secure user authentication where admin user can handle all the order management with separated dashboard. Individually designed UI with Tailwind CSS, and implemented Razorpay for seamless payment processing.",
+        "Developed a responsive full-stack web application using React.js, integrating Cashfree for real-time data management and secure user authentication where admin user can handle all the order management with separated dashboard. Individually designed UI with Tailwind CSS, and implemented Cashfree for seamless payment processing. Implemented serverless backend deployed in aws and used node.js, mongodb in backend. Apart from that implementation of Shiprocket Apis for delivery partner that help to deliver products around the India.",
       image:
-        "https://raw.githubusercontent.com/imabhishek476/images/main/Screenshot%202024-06-27%20220636.png",
-      tags: ["React Js", "Firebase","Tailwind CSS", "Razorpay"],
+        "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/Screenshot%202024-10-05%20145732.png",
+      tags: ["React Js", "Tailwind CSS", "NodeJs", "MongoDB", "Cashfree", "ShipRocket", "AWS", "Docker"],
       category: "web app",
       github: "https://github.com/imabhishek476/Abhishek_Mall",
-      webapp: "https://abhishekmall.vercel.app/",
+      webapp: "https://vibepulse.vercel.app/",
       // member: [
       //   {
       //     name: "Abhishek Gupta",

@@ -14,7 +14,7 @@ import {
   // SocialMediaIcon,
   ResumeButton
 } from "./HeroStyle";
-import HeroImg from "../../images/HeroImage.jfif";
+// import HeroImg from "../../images/HeroImage.jfif";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 import StyledStarsCanvas from "../canvas/Stars";
@@ -46,6 +46,8 @@ const HeroSection = () => {
                         strings: Bio.roles,
                         autoStart: true,
                         loop: true,
+                        deleteSpeed: 1,
+                        delay: 5
                       }}
                     />
                   </Span>
@@ -63,7 +65,7 @@ const HeroSection = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={Bio.profile} alt={Bio.name} />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

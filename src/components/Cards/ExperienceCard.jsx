@@ -104,7 +104,7 @@ const ExperienceCard = ({ experience }) => {
         <img
           width="100%"
           height="100%"
-          alt={experience.school}
+          alt={experience.company}
           style={{ borderRadius: "50%", objectFit: "cover" }}
           src={experience.img}
         />
