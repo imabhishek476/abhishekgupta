@@ -139,7 +139,7 @@ const Contact = ({open, setOpen}) => {
       });
       return;
     }
-    emailjs.sendForm('service_egmpz88', 'template_j7x03cn', form.current, 'nIgblPLTNEOqPxNs7')
+    emailjs.sendForm('service_id', 'template_id', form.current, {publicKey: 'nIgblPLTNEOqPxNs7'})
       .then((result) => {
         setOpen({
           ...open,
@@ -149,6 +149,7 @@ const Contact = ({open, setOpen}) => {
         });
         form.current.reset();
       },(error) => {
+        console.log('FAILED...', error);
         setOpen({
           ...open,
           status: true,
