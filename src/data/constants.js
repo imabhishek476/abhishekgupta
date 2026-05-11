@@ -10,8 +10,7 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/imabhishek476",
-    resume:
-      "https://raw.githubusercontent.com/imabhishek476/images/main/Abhishek_Gupta_adv.pdf",
+    resume: "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/Abhishek_Gupta_adv.pdf",
     linkedin: "https://www.linkedin.com/in/abhishek-gupta476/",
     twitter: "https://twitter.com/Abhi_Ausstar",
     insta: "https://www.instagram.com/imabhishekausstar/",
@@ -245,7 +244,7 @@ export const Bio = {
       img: "https://raw.githubusercontent.com/imabhishek476/images/refs/heads/main/an_digital_presence.jpeg",
       role: "Full Stack Developer",
       company: "AN Digital Presence",
-      date: "July 2024 - Present",
+      date: "July 2024 - Sep 2024",
       desc: "Working as Freelancer and developing, managing the application and provide cost effective solutions for their clients and help to scale their businesses.",
       skills: [
         "React",
@@ -260,6 +259,32 @@ export const Bio = {
         "Docker",
         "AWS",
         "CI/CD",
+      ],
+      doc: ""
+    },
+    {
+      id: 3,
+      img: "https://vinnovatetechnologies.com/img/logo/vInnovate.png",
+      role: "Product Engineer",
+      company: "Vinnovate Technologies",
+      date: "Nov 2024 - Present",
+      desc: "As a Product Engineer, Delivered multiple production-grade platforms for US-based Legal and Healthcare clients, owning full-stack development and deployment across concurrent projects. Led R&D on client-requested features, consistently translating manual business workflows into automated, scalable solutions shipped on schedule. Drove UI/UX improvements across products via component-level reviews, reducing design inconsistencies and improving visual cohesion.",
+      skills: [
+        "React",
+        "Redux",
+        "NodeJs",
+        "MongoDB",
+        "Material UI",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Docker",
+        "AWS",
+        "Google Cloud Platform",
+        "CI/CD",
+        "Agentic AI",
+        "Python",
+        "Fast API",
       ],
       doc: ""
     },
