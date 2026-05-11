@@ -139,7 +139,7 @@ const Contact = ({open, setOpen}) => {
       });
       return;
     }
-    emailjs.sendForm('service_id', 'template_id', form.current, { publicKey: 'nIgblPLTNEOqPxNs7' })
+    emailjs.sendForm('service_id', 'template_id', form.current, { publicKey: 'UDAljs93YJgB3Z4nR' })
       .then((result) => {
         setOpen({
           ...open,
